@@ -1,0 +1,21 @@
+Java is developed byJames Gosling, it is High level Language, Works on WORA concept(write once run anywhere)
+Java is OBJECT ORIENTED, PLATFORM INDEPENDENT(when compiled gives a byte code, which is platform independent and it it interpreted by JVM)
+Java provides Multi-threading.
+Java is designed for distributed environment.
+
+
+To download java, one must install JDK(allows to create programs), JRE(runs the program)
+Java uses JVM concept - java virtual machine (helps in making platform independent)
+    
+    Text(.java) file
+         |
+         |  javac----> JDK
+         |
+    .class(byte code)
+         |
+         |   JVM-----> JRE(sets up, creates, runs JVM)
+         |      
+    Computer program( binary file which is understandable by computer)
+    
+    
+Many classes can be written in one .java file, ---> For every class ----> one binary file is created
