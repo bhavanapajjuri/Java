@@ -1,2 +1,2 @@
 # Java
-Java Tutorials, problems for futher reference
+Java Tutorials, problems for future reference
