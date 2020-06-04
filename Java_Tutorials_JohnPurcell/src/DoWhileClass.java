@@ -18,5 +18,9 @@ public class DoWhileClass {
         }while(val!=5);
         
         System.out.println("Got 5!");
+        
+        
+        
 	}
+        
 }
