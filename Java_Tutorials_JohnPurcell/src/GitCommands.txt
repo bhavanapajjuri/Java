@@ -1,0 +1,15 @@
+ git config user.email  -- to see which email it is using
+ git config user.email "bhavanapajjuri93@gmail.com" -- to change email to given email (to match with the git hub account,
+                                    to make the commits visible on the contribution graph)
+
+git status - to see the status of the files in the directory, which are modified and yet to commit)
+git log - to view the commits in the branch
+
+git branch <branch name> - to create a new branch
+git checkout <branch name> - to make a branch active
+git commit -m "message" - to commit the changes into the branch will you are in
+git merge <branch name> (the opposite branch name, the name of the branch which to be merged)
+git pull
+git push origin <branch name>
+
+to delete a branch - git brancg=h -d <branch name>(the branch name of the one that to be deleted)
