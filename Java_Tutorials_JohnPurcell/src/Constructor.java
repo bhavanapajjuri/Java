@@ -6,7 +6,7 @@
 // we can call a constructor from other constructor by providing this() 
 //[unparameterized constructor that is called and this(<parameters>) should be in the first line of a constructor
 class Machine {
-	private String name;
+	private static String name;
 	private int cost;
 
 	public void setName(String name) {
@@ -18,7 +18,7 @@ class Machine {
 	}
 
 	public Machine() {
-		this("vaccum cleaner", 30000);
+		this(name, 30000);
 		System.out.println("this is machine constructor");
 		setName("invertor");
 	}
